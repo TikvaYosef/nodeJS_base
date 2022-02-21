@@ -32,7 +32,7 @@
 // })
 
 // import fs from 'fs';
-const fs = require('fs');
+// const fs = require('fs');
 
 // let array = [];
 // for (let i = 0; i <= 14; i++) {
@@ -81,6 +81,14 @@ const fs = require('fs');
 //     });
 // })
 
-const util = require(util);
+// const util = require(util);
 
 
+// 10
+// const eventObject = require("./EventsClass")
+// eventObject.EmitPrintToLog("data from emit 10");
+
+
+//  שאלה 11+12 
+const eventObject = require("./Event4")
+eventObject.EmitPrintToFile("test from event4")
